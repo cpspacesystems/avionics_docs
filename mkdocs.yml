@@ -1,0 +1,5 @@
+site_name: CPSS Flight Operating System
+nav:
+  - Home: index.md
+  - Language Specification: language-spec.md
+theme: readthedocs
