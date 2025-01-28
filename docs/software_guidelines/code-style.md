@@ -2,6 +2,8 @@
 
 The primary languages we use are C, C++, and Python. Use formatters and common formatting files to avoid muddying commits with formatting changes.
 
+We also use Markdown for documentation.
+
 Common code editors (e.g., VSCode, Neovim, etc.) have plugins for setting up formatters; please set up format-on-save and ensure files are formatted before committing.
 
 ## Formatting
@@ -126,3 +128,26 @@ UseTab: Never
 ### Python
 
 Use black to format Python code.
+
+### Markdown
+
+Use prettier:
+
+prettierrc.yaml:
+
+```yaml
+printWidth: 80
+tabWidth: 2
+useTabs: false
+semi: false
+singleQuote: true
+proseWrap: always
+trailingComma: none
+bracketSpacing: true
+arrowParens: avoid
+endOfLine: lf
+overrides:
+  - files: "*.md"
+    options:
+      parser: markdown
+```
