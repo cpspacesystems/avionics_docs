@@ -6,6 +6,10 @@ We also use Markdown for documentation.
 
 Common code editors (e.g., VSCode, Neovim, etc.) have plugins for setting up formatters; please set up format-on-save and ensure files are formatted before committing.
 
+## Formatting Config Files
+
+These are files like .clang-format, .prettierrc.yaml, etc. that contain the formatting rules for the respective language formatter. Place these in the root of your repository.
+
 ## Formatting
 
 ### C and C++
