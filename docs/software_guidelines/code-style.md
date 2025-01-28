@@ -2,6 +2,8 @@
 
 The primary languages we use are C, C++, and Python. Use formatters and common formatting files to avoid muddying commits with formatting changes.
 
+Common code editors (e.g., VSCode, Neovim, etc.) have plugins for setting up formatters; please set up format-on-save and ensure files are formatted before committing.
+
 ## Formatting
 
 ### C and C++
