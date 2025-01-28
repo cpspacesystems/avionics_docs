@@ -4,6 +4,5 @@ nav:
   - Software Guidelines:
       - Code Style: software_guidelines/code-style.md
       - Git Workflow: software_guidelines/git-workflow.md
-      - Using GitHub: software_guidelines/using-github.md
   - Language Specification: language-spec.md
 theme: readthedocs
